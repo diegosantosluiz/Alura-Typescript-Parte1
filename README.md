@@ -5,6 +5,6 @@
 ## Build Setup
 
 ``` bash
-npm start
+npm run server
 Starts the development server.
 ```
