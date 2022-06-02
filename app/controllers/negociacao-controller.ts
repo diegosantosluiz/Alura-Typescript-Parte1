@@ -10,6 +10,8 @@ export class NegociacaoController {
   }
 
   adiciona() {
-    
+    console.log(this._inputData);
+    console.log(this._inputQuantidade);
+    console.log(this._inputValor);
   }
 }
