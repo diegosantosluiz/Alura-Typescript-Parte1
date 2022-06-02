@@ -1,14 +1,14 @@
 import { Negociacao } from "../models/negociacao.js";
 
 export class NegociacaoController {
-  private _inputData;
-  private _inputQuantidade;
-  private _inputValor;
+  private _inputData: HTMLInputElement;
+  private _inputQuantidade: HTMLInputElement;
+  private _inputValor: HTMLInputElement;
 
   constructor() {
-    this._inputData = document.getElementById('data');
-    this._inputQuantidade = document.getElementById('quantidade');
-    this._inputValor = document.getElementById('valor');
+    this._inputData = document.querySelector('#data');
+    this._inputQuantidade = document.querySelector('#quantidade');
+    this._inputValor = document.querySelector('#valor');
   }
 
   adiciona() {
